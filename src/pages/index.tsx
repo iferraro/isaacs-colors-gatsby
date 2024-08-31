@@ -3,6 +3,7 @@ import data from "../../public/static/isaacs-custom-colors.json";
 import type { HeadFC, PageProps } from "gatsby";
 
 type Color = {
+  id: string;
   name: string;
   hex: string;
 };
